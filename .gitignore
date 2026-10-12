@@ -1,0 +1,13 @@
+# Local credentials and machine-generated files
+.env
+ingestion/config/.env
+.DS_Store
+__pycache__/
+*.py[cod]
+
+# Market data and generated research outputs are kept outside Git history
+data/
+output/
+notebooks/Master_Data.csv
+notebooks/scraping.ipynb
+notebooks/.ipynb_checkpoints/
